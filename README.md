@@ -1,5 +1,5 @@
-# dotnet-grpc-httpapi
-.NET Core Http API over Grpc
+# Call and Http API over Grpc
+## Experimental
 
 ### Generage a Grpc project
 
