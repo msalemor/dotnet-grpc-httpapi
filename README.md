@@ -4,14 +4,14 @@
 ### Generage a Grpc project
 
 ```bash
-dotnet new grpc -o grpcapi2
+dotnet new grpc -o grpcapi2 && cd grpcapi2
 ```
 
 ### Add the following packages
 
 ```
 dotnet add package Microsoft.AspNetCore.Grpc.HttpApi --version 0.1.0-alpha.21317.5
-dotnet add package Microsoft.AspNetCore.Grpc.Swagger --version=0.1.0-alpha.21317.5
+dotnet add package Microsoft.AspNetCore.Grpc.Swagger --version 0.1.0-alpha.21317.5
 ```
 
 ## Add Google http.proto and annotations.proto
@@ -20,7 +20,7 @@ Add [google/api/http.proto](https://github.com/aspnet/AspLabs/blob/c1e59cacf7b96
 
 > **Note:** In your project create a folders google/api and the files `http.proto` and `annotations.proto` and copy the content above.
 
-### Modifiy the Greeser.proto
+### Modifiy the Protos/greet.proto
 
 ```proto
 syntax = "proto3";
@@ -113,4 +113,10 @@ namespace grpcapi2
         }
     }
 }
-#
+```
+
+### Test the service
+
+`dotnet run .`
+
+- Open a browser and navigate to: https://localhost:5001/swagger
