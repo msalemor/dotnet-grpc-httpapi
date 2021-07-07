@@ -1,7 +1,7 @@
 # Call an Http API over Grpc (Experimental)
 
 
-### Generage a Grpc project
+### Generate a Grpc project
 
 ```bash
 dotnet new grpc -o grpcapi2 && cd grpcapi2
