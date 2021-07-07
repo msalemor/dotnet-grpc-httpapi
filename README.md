@@ -1,4 +1,4 @@
-# Call and Http API over Grpc
+# Call an Http API over Grpc
 ## Experimental
 
 ### Generage a Grpc project
