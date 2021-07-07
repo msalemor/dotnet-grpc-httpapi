@@ -18,7 +18,7 @@ dotnet add package Microsoft.AspNetCore.Grpc.Swagger --version 0.1.0-alpha.21317
 
 Add [google/api/http.proto](https://github.com/aspnet/AspLabs/blob/c1e59cacf7b9606650d6ec38e54fa3a82377f360/src/GrpcHttpApi/sample/Proto/google/api/http.proto) and [google/api/annotations.proto](https://github.com/aspnet/AspLabs/blob/c1e59cacf7b9606650d6ec38e54fa3a82377f360/src/GrpcHttpApi/sample/Proto/google/api/annotations.proto) files to your project.
 
-> **Note:** In your project create a folders google/api and the files `http.proto` and `annotations.proto` and copy the content above.
+> **Note:** In your project create folders google/api, add the files `http.proto` and `annotations.proto`, and copy the content above.
 
 ### Modifiy the Protos/greet.proto
 
